@@ -35,5 +35,6 @@ if __name__=="__main__":
                 break
             else:
                 pass
-        except KeyboardInterrupt:
+        except Exception as e:
+            print(e)
             break
