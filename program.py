@@ -25,3 +25,15 @@ if __name__=="__main__":
                    12:(4,"IV"),
                    13:(1,"I")                       
                     }
+    while True:
+
+        try:
+            n=int(input("Enter any integer"))
+            k=roman(n)
+            print(k.int_to_roman())
+            if KeyboardInterrupt is True:
+                break
+            else:
+                pass
+        except KeyboardInterrupt:
+            break
